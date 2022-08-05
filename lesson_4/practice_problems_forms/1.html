@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>User Info Collect</title>
+    <meta charset="UTF-8" />
+    <style>
+      /* Add to end of file */
+      .top-to-bottom label,
+      .top-to-bottom input[type='text'] {
+        display: block;
+        width: 100%;
+      }
+      .top-to-bottom input[type='submit'] {
+        display: block;
+        margin: 1rem 5%;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="#" method="post" class="top-to-bottom">
+      <fieldset>
+        <label for="first-name">First Name</label>
+        <input type="text" name="first-name" id="first-name" require />
+
+        <label for="last-name">Last Name</label>
+        <input type="text" name="last-name" id="last-name" require />
+
+        <label for="email-address">Email Address</label>
+        <input
+          type="email"
+          name="email-address"
+          id="email-address"
+          require
+          autocomplete="off"
+          autocorrect="off"
+          autocapitalize="none"
+        />
+
+        <label for="phone-number">Phone Number</label>
+        <input type="tel" name="phone-number" id="phone-number" require />
+
+        <input type="submit" value="Send">
+      </fieldset>
+    </form>
+  </body>
+</html>
