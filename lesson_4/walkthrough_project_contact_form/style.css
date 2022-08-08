@@ -19,7 +19,6 @@ div.check-group {
 
 fieldset {
   width: 50%;
-  /* margin-right: 50%; */
   margin: 0 auto;
   border: none;
 }
@@ -27,6 +26,34 @@ fieldset {
 dt {
   border-bottom: .5px solid black;
   padding-bottom: .3rem;
+}
+
+.first-name,
+.last-name {
+  margin-right: -4px;
+  width:50%;
+  display: border-box;
+  display: inline-block;
+}
+
+.city,
+.state,
+.zip-code {
+  margin-right: -4px;
+  display: border-box;
+  display: inline-block;
+}
+
+.city {
+  width: 50%;
+}
+
+.state {
+  width: 10%;
+}
+
+.zip-code {
+  width: 40%;
 }
 
 dd {
