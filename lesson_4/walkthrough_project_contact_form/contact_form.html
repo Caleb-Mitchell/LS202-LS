@@ -9,29 +9,30 @@
     <form action="#" method="post">
       <fieldset>
         <dl>
-          <dt>First Name</dt>
+          <dt><label for="first-name">First Name</label></dt>
           <dd>
-            <input type="text" name="first-name" />
+            <input type="text" name="first-name" id="first-name" />
           </dd>
-          <dt>Last Name</dt>
+          <dt><label for="last-name">Last Name</label></dt>
           <dd>
-            <input type="text" name="last-name" />
+            <input type="text" name="last-name" id="last-name" />
           </dd>
-          <dt>Email Address</dt>
+          <dt><label for="email">Email Address</label></dt>
           <dd>
             <input
               type="email"
               name="email"
               placeholder="example@example.com"
+              id="email"
             />
           </dd>
-          <dt>City</dt>
+          <dt><label for="city">City</label></dt>
           <dd>
-            <input type="text" name="city" />
+            <input type="text" name="city" id="city"/>
           </dd>
-          <dt>State</dt>
+          <dt><label for="state">State</label></dt>
           <dd>
-            <select name="state">
+            <select name="state" id="state">
               <option>AK</option>
               <option>AL</option>
               <option>AR</option>
@@ -85,13 +86,14 @@
               <option>WY</option>
             </select>
           </dd>
-          <dt>Zip Code</dt>
+          <dt><label for="zip-code">Zip Code</label></dt>
           <dd>
             <input
               type="number"
               name="zip-code"
               placeholder="#####"
               max="99999"
+              id="zip-code"
             />
           </dd>
         </dl>
@@ -99,9 +101,9 @@
 
       <fieldset>
         <dl>
-          <dt>Which of these colors do you like best?</dt>
+          <dt><label for="color">Which of these colors do you like best?</label></dt>
           <dd>
-            <select>
+            <select id="color">
               <option value="blue" selected>blue</option>
               <option value="black">black</option>
               <option value="red">red</option>
@@ -146,7 +148,7 @@
 
             <div class="check-group">
               <input type="checkbox" name="python" id="python" />
-              <label for="ruby">Python</label>
+              <label for="python">Python</label>
             </div>
           </dd>
         </dl>
