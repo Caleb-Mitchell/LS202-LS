@@ -1,0 +1,72 @@
+body {
+  font: normal 16px Helvetica, Arial, sans-serif;
+}
+
+input,
+select {
+  margin: 0.5rem 0.25rem 1rem 0;
+}
+
+select,
+input:not([type='checkbox']) {
+  display: block;
+}
+
+div.check-group {
+  display: inline-block;
+  width: 25%;
+}
+
+fieldset {
+  width: 50%;
+  margin: 0 auto;
+  border: none;
+}
+
+dt {
+  border-bottom: .5px solid black;
+  padding-bottom: .3rem;
+}
+
+.first-name,
+.last-name {
+  margin-right: -4px;
+  width:50%;
+  display: border-box;
+  display: inline-block;
+}
+
+.city,
+.state,
+.zip-code {
+  margin-right: -4px;
+  display: border-box;
+  display: inline-block;
+}
+
+.city {
+  width: 50%;
+}
+
+.state {
+  width: 10%;
+}
+
+.zip-code {
+  width: 40%;
+}
+
+dd {
+  margin-left: 0;
+  padding-top: 0.5rem;
+}
+
+input[type='submit'],
+input[type='reset'] {
+  margin: 1rem auto;
+  display: inline-block;
+}
+
+textarea {
+  resize: vertical;
+}
