@@ -1,0 +1,257 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  border: 2px solid #999999;
+  /* margin: 0.35rem 18.2% 0.35rem 17.1%; */
+  margin: 0.5rem 9% 0.5rem 9.1%;
+  /* padding: .9rem .9821rem; */
+  padding: 1.25rem 1.2rem;
+}
+
+h1 {
+  color: #c3544e;
+  font: bold 1.5rem Arial, Helvetica, sans-serif;
+  margin-bottom: 1.8rem;
+}
+
+h2 {
+  color: #c3544e;
+  font: bold 1.25rem Arial, Helvetica, sans-serif;
+  margin-bottom: 1.8rem;
+}
+
+p {
+  margin: 0 0 2.1rem 0;
+  font: 1rem Arial, Helvetica, sans-serif;
+  color: #545459;
+}
+
+section > p {
+  line-height: 2;
+}
+
+aside {
+  border: 2px dashed #555555;
+  padding: 1.88rem 1.82rem;
+  margin: 3.3rem 27.4% 2.8rem 4.8%;
+}
+
+aside p {
+  color: #333333;
+  margin-right: 0.03rem;
+}
+
+aside.inline-example p {
+  display: inline;
+}
+
+aside.inline-margin-example p {
+  display: inline;
+  margin: 1.89rem;
+}
+
+aside.padding-example p {
+  display: inline;
+  padding: 1.8rem;
+  background-color: green;
+  color: white;
+  /* margin: .5rem; */
+}
+
+aside.float-inline-example {
+  overflow: hidden;
+}
+
+aside.float-inline-example p {
+  display: inline;
+  padding: 1.5rem 2rem;
+  background-color: green;
+  color: white;
+  float: left;
+  border: 3px solid darkgreen;
+  margin: 1.3rem 1rem;
+}
+
+div.no-width-or-height {
+  background-color: #3b8ef9;
+  color: white;
+}
+
+div.height-and-padding-and-margins {
+  background-color: green;
+  color: white;
+  height: 60px;
+  padding: 20px;
+  margin: 20px;
+}
+
+div.width-no-height {
+  background-color: #f16e4f;
+  width: 90px;
+  color: white;
+  margin-bottom: 1.2rem;
+}
+
+div.width-height-padding-and-margins {
+  width: 180px;
+  height: 120px;
+  padding: 20px;
+  margin: 20px;
+  background-color: #f8c3cb;
+  color: white;
+}
+
+div.floating-divs {
+  overflow: hidden;
+  padding-bottom: 2rem;
+}
+
+div.float-left {
+  float: left;
+  background-color: #3b8ef9;
+  border: 1px solid red;
+  color: white;
+}
+
+div.float-right {
+  float: right;
+  background-color: #f16e4f;
+  border: 1px solid red;
+  color: white;
+}
+
+div.float-left-width {
+  float: left;
+  background-color: #f16e4f;
+  color: white;
+  width: 40%;
+  text-align: center;
+  padding: 1.5rem;
+}
+
+div.float-right-width {
+  float: right;
+  background-color: #3b8ef9;
+  color: white;
+  width: 50%;
+  text-align: center;
+  padding: 1.5rem;
+}
+
+a.change-to-block {
+  display: block;
+  background-color: #3b8ef9;
+  color: white;
+  text-align: center;
+  margin: 1rem;
+  text-decoration: none;
+  padding: .8rem 0;
+}
+
+div.nav-bar {
+  padding: 2rem;
+  box-sizing: border-box;
+}
+
+a.nav-bar-button {
+  display: inline-block;
+  background-color: #3b8ef9;
+  color: white;
+  text-decoration: none;
+  
+  width: 180px;
+  padding: 20px 30px;
+  margin: 20px 8px 25px;
+  text-align: center;
+}
+
+hr {
+  border: none;
+  border-top: 2px dashed #555555;
+}
+
+h1.float-heading {
+  color: #c3544e;
+  font: bold 1.5rem Arial, Helvetica, sans-serif;
+  margin-bottom: 1.8rem;
+  text-align: center;
+}
+
+div.floated-boxes {
+  margin-bottom: 2rem;
+}
+
+div.float-box-1 {
+  float: left;
+  color: white;
+  background-color: orange;
+  width: 50%;
+  text-align: center;
+  padding: 2rem;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+div.float-box-2 {
+  background-color: blue;
+}
+
+div.clearfix {
+  color: white;
+  background-color: green;
+  clear: both;
+  text-align: center;
+  padding: 1rem 3rem;
+}
+
+div code.code-block {
+  display: block;
+  margin-left: 5rem;
+}
+
+ul {
+  margin-left: 2rem;
+}
+
+ul li {
+  font-style: italic;
+}
+
+div.fixed-position {
+  color: white;
+  background-color: dodgerblue;
+  padding: 2rem 4rem;
+  position: fixed;
+  left: 3rem;
+  bottom: 5rem;
+  border-radius: 10px;
+}
+
+div.absolute-positioned {
+  color: white;
+  background-color: forestgreen;
+  padding: 2rem 4rem;
+  position: absolute;
+  right: 45%;
+  top: 434%;
+  border-radius: 10px;
+}
+
+div.relative-positioned {
+  color: white;
+  background-color: salmon;
+  padding: 2rem 4rem;
+  border-radius: 10px;
+  position: relative;
+  width: 30%;
+  left: -70px;
+  bottom: -20px;
+}
