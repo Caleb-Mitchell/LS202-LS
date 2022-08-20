@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font: normal 24px Helvetica, Arial, sans-serif;
+  background-color: black;
+  color: white;
+  padding: 1rem;
+}
+
+/* This is the box that takes up the entire photo gallery */
+body {
+  padding: 1rem;
+  background-color: #333333;
+  min-width: 500px;
+  max-width: 1000px;
+  display: grid;
+  grid-template-rows: min-content;
+  grid-template-areas:
+  "header header header header"
+  "main-image main-image main-image main-image"
+  "thumbnail1 thumbnail2 thumbnail3 thumbnail4";
+  column-gap: 10px;
+}
+
+h1 {
+  grid-area: header;
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+figure {
+  grid-area: main-image;
+  width: 100%;
+  justify-self: center;
+}
+
+img {
+  width: 100%;
+  box-sizing: border-box;
+  border: 10px solid white;
+}
+
+div img {
+  border: 5px solid white;
+}
