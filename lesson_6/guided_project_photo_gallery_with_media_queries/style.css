@@ -40,6 +40,11 @@ figure {
   justify-self: center;
 }
 
+figcaption {
+  border: 1px dashed white;
+  padding: .2rem;
+}
+
 div.thumbnail1 {
   grid-area: thumbnail1;
 }
