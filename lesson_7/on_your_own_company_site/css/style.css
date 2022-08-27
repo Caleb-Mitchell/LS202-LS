@@ -1,0 +1,22 @@
+@import "./reset.css";
+
+header {
+  background: no-repeat url("../images/bg_body.gif");
+}
+
+h1 img {
+  margin-top: 133px;
+  padding-left: 433px;
+}
+
+ul {
+  width: 1200px;
+  display: flex;
+  justify-content: space-between;
+}
+
+li a {
+  text-decoration: none;
+  font-family: "Avenir LT std";
+  color: #cacaca;
+}
