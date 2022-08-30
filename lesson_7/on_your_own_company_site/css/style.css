@@ -1,7 +1,12 @@
 @import "./reset.css";
 
+body {
+  width: 1200px;
+}
+
 header {
   background: no-repeat url("../images/bg_body.gif");
+  margin-bottom: 100px;
 }
 
 h1 img {
@@ -9,14 +14,146 @@ h1 img {
   padding-left: 433px;
 }
 
+img.project-img {
+  display: block;
+  margin: 40px auto;
+}
+
 ul {
-  width: 1200px;
+  /* width: 1200px; */
+  width: 100%;
   display: flex;
   justify-content: space-between;
 }
 
 li a {
   text-decoration: none;
-  font-family: "Avenir LT std";
+  font-family: 'Nunito', sans-serif;
+  font-weight: 500;
+  font-size: 1.65rem;
   color: #cacaca;
+}
+
+nav {
+  margin: 118px auto 0 auto;
+  width: 35%;
+  padding-bottom: 38px;
+}
+
+a.active {
+  font-weight: 800;
+  color: #6db9ff;
+}
+
+h2 {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 2.2rem;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700;
+  color: #45494d;
+}
+
+h3 {
+  text-align: center;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 800;
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  color: #3e59b2;
+}
+
+p {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 400;
+  text-align: center;
+  line-height: 1.8rem;
+  font-size: 1.25rem;
+  margin: 1.5rem auto 5rem auto;
+  width: 65%;
+}
+
+span.left-bullet {
+  padding-right: 1rem;
+  font-size: 1.8rem;
+  position: relative;
+  bottom: .3rem;
+}
+
+span.right-bullet {
+  padding-left: 1rem;
+  font-size: 1.8rem;
+  position: relative;
+  bottom: .3rem;
+}
+
+div.team-pictures {
+  margin: 0 auto 10rem;
+  width: 65%;
+}
+
+div.team-pictures ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+div.team-pictures label {
+  position: relative;
+  left: 35px;
+  top: 10px;
+  color: #3e59b2;
+  font-weight: 300;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 1200px;
+  background-color: #e7e7e7;
+  color: #b2b2b2;
+  padding-top: 88px;
+}
+
+footer p {
+  width: 37%;
+}
+
+footer ul {
+  width: 37%;
+  padding: 0;
+  margin: -40px 22% 50px;
+}
+
+footer li {
+  display: inline-block;
+  padding: 0 60px;
+}
+
+footer li a {
+  background:
+    transparent
+    url("https://d3jtzah944tvom.cloudfront.net/202/projects/lesson_7/spacedesign/images/icons_social-media.png")
+    0 0 no-repeat;
+  display: block;
+  height: 46px;
+  overflow: hidden;
+  text-indent: -8685px;
+  width: 46px;
+}
+
+footer li a.twitter {
+  background-position: 0 0;
+}
+
+footer li a.facebook {
+  background-position: 0 -46px;
+}
+
+footer li a.email {
+  background-position: 0 -92px;
+}
+
+footer li a.instagram {
+  background-position: 0 -138px;
 }
