@@ -35,7 +35,7 @@ main ul {
 }
 
 img {
-  max-width: 155px;
+  max-width: auto;
   max-height: 140px;
 }
 
@@ -96,10 +96,13 @@ main h2 {
   z-index: 2;
 }
 
-#toggle:checked ~ div.expandable {
+#toggle:checked ~ figure:before {
   position: absolute;
+  content: "";
   top: 0%;
   left: 0%;
   width: 100%;
   height: 100%;
+  z-index: 1;
+  background: rgba(0, 0, 0, .4);
 }
