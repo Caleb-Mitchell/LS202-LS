@@ -54,6 +54,11 @@ main figure {
   padding: 15px;
 }
 
+figcaption {
+  color: #222222;
+  font-size: 1.3rem;
+}
+
 figcaption:first-of-type {
   padding-top: 15px;
   font-weight: bold;
