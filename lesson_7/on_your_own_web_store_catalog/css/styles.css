@@ -7,6 +7,7 @@ header {
   background-color: #057ec1;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
+  height: 105px;
 }
 
 nav a {
@@ -16,7 +17,6 @@ nav a {
 header,
 main {
   width: 900px;
-  height: 105px;
   margin: 0 auto;
 }
 
@@ -56,10 +56,10 @@ main figure {
 
 figcaption {
   color: #222222;
-  font-size: 1.3rem;
 }
 
 figcaption:first-of-type {
+  font-size: 1.1rem;
   padding-top: 15px;
   font-weight: bold;
 }
@@ -68,9 +68,7 @@ h1,
 h2 {
   padding-top: 24px;
   padding-left: 26px;
-  font-family: 'Nunito', sans-serif;
-  font-weight: 900;
-  font-size: 2.4rem;
+  font: bold 2.4rem Helvetica, Arial, sans-serif;
   color: white;
 }
 
